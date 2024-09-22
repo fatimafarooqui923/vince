@@ -88,3 +88,44 @@
     
 </body>
 </html>
+h2{
+    text-align: center;
+    font-weight: 700px;
+    color: #424242;
+    position: relative;
+    letter-spacing: 0.5em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-family: arial,sans-serif;
+    padding-top: 50px;
+    
+}
+
+.outer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+img{
+ 
+  transition: transform 0.3s ease;
+
+}
+img:hover{transform: scale(1.2);}
+
+.outer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+    
+h3{
+       text-align: center;
+       font-size: 20px;
+       margin-top: 10px;
+}
